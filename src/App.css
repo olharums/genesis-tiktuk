@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.navbar a {
+  font-size: 18pt;
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a:hover {
+  color: rgb(134, 134, 138);
+}
+a.logo {
+  font-size: 22pt;
+  font-weight: 700;
+}
+.cont-logo {
+  width: fit-content !important;
+  padding: 0 !important;
+}
+a.userName {
+  color: white;
+  text-decoration: none;
+}
+a.userName:hover {
+  color: white;
+  text-decoration: underline;
+}
+img.userIcon {
+  border-radius: 30px;
+}
+
+img.musicIcon {
+  width: 55px;
+  height: 55px;
+  border-radius: 30px;
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
+}
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.subsrButton {
+  background-color: #fe2c55;
+  color: white;
+}
+.unsubsrButton {
+  background-color: white;
+  color: #fe2c55;
+}
+
+.subsrButton,
+.unsubsrButton {
+  border-color: #fe2c55;
+  border-radius: 3px;
+  transition-duration: 0.5s;
+}
+.subsrButton:hover,
+.unsubsrButton:hover {
+  box-shadow: 0px 0px 10px #fe2c55;
+}
+.bioLink {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+}
+.bioLink a {
+  color: black;
+  text-decoration: none;
+}
+.bioLink a:hover {
+  color: rgba(0, 0, 0, 0.705);
+  text-decoration: none;
+}
